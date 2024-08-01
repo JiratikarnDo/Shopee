@@ -13,7 +13,7 @@ const db = mysql.createConnection(
         database: "shopee"
     }
 )
-db.connect()
+db.connect()//sdsd
 
 // แปลงข้อมูลจาก client ที่เป็นรูปแบบ json ให้เป็น object
 app.use(express.json())
